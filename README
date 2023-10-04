@@ -1,0 +1,11 @@
+先執行make後 即可執行以下三個測資檔(產生3個test的ll檔案）
+./lli test1.ll 
+./lli test2.ll
+./lli test3.ll
+此方法式直接執行.ll的as code
+makefile內也可以直接產生test1.out....等執行檔案
+直接打./test.out即可執行
+測資共有三筆 test1.c test2.c test3.c
+最後可執行make clean 清除多餘檔案(ll檔案也會被清除)
+這裡面支援了float, int 的運算與輸出（各自兩個參數）
+與hello的字串輸出
